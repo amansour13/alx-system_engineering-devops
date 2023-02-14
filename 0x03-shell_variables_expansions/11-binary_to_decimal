@@ -1,5 +1,2 @@
 #!/bin/bash
-
-binary=$BINARY
-base10=$(echo "ibase=2; $binary" | bc)
-echo $base10
+echo "ibase=2; $BINARY" | bc
