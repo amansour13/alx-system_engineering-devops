@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${2}" | tr 'A-Za-z' ${1^^}'-'Z${1,}A'-'z
+echo "$2" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
